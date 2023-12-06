@@ -4,6 +4,7 @@ header .nav-wrapper {
   width: 100%;
   z-index: 2;
   position: fixed;
+  padding: 16px 0;
 }
 
 header nav {
@@ -228,6 +229,18 @@ header nav .nav-sections ul > li > ul > li {
     gap: 2em;
     margin: 0;
     font-size: var(--body-font-size-xs);
+    justify-content: end;
+  }
+
+  header nav .nav-sections ul a{
+    color: currentcolor;
+    text-transform: uppercase;
+    padding: 15px 17px;
+    text-decoration: none;
+  }
+
+  header nav .nav-sections ul a:hover {
+    background-color: var(--heading-highlight-color);
   }
 
   header nav .nav-sections .default-content-wrapper > ul > li {
